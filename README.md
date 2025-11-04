@@ -12,7 +12,7 @@ Ce dépôt contient une implémentation pratique du **Design Pattern Strategy** 
   - Structure simple, sans framework spécifique (fonctionne avec n'importe quel IDE Java).
 
 - **Concepts clés** :
-  - **Strategy** : Une interface définissant une méthode `execute()`.
+  - **Strategy** : Une interface définissant une méthode `effectuerOperation()`.
   - **StrategyDefault** : Une stratégie par défaut qui implémente l'algorithme de manière générique.
   - **Strategy1, Strategy2, Strategy3** : Trois stratégies concrètes, chacune implémentant un algorithme spécifique.
   - **Context** : Une classe qui utilise la stratégie et permet de la changer dynamiquement à l'exécution.
