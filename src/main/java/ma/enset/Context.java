@@ -5,7 +5,7 @@ package ma.enset;
  **/
 public class Context {
 
-    private Strategy strategy;
+    private Strategy strategy = new DefaultStrategyImpl();
 
     public void setStrategy(Strategy strategy) {
         this.strategy = strategy;
